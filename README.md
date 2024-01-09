@@ -47,8 +47,14 @@ dataset_url = "https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/notebo
 path = "./"
 path = download(dataset_url, path, kind="zip", replace=True)
 ```
-
-
+The data set path has the following structure
+```pycon
+.dataset/
+    ├── ILSVRC2012_devkit_t12.tar.gz
+    ├── train/
+    ├── infer/
+    └── val/
+```
 
 **Loss Curve**
 
