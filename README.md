@@ -19,7 +19,7 @@ The version of  **MindSpore is 2.1.1**.
 
     ```pycon
     # Download Code
-    >>> git clone https://github.com/ChaselLau666/Image-Measurement-Technology-Work.git
+    >>> git clone https://github.com/ChaselLau666/IMT-WORK.git
     # create a conda environment
     >>> conda create -n ms python=3.8
     # Install mindspore 2.1.1
